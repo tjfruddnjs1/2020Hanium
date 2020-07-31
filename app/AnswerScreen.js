@@ -2,7 +2,7 @@
 import 'react-native-gesture-handler';
 import React, {Component} from 'react';
 
-//cdfd
+//답안제출화면입니다
 import {
  View,
  Text,
