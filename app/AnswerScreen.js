@@ -2,7 +2,11 @@
 import 'react-native-gesture-handler';
 import React, {Component} from 'react';
 
+<<<<<<< HEAD
 //답안제출화면입니다
+=======
+//cdfddasdas
+>>>>>>> 944503df4bf4e16b89620eaec3fadd0e6f4324fd
 import {
  View,
  Text,
