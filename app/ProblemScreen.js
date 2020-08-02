@@ -24,7 +24,6 @@ const ProblemScreen = ({route, navigation}) => {
         <View style = {styles.subcon}></View><Text style = {styles.numtext}>{num}</Text>
         <Example/>
     </View>
-
     );
 }
 
