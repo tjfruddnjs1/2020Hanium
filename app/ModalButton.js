@@ -37,14 +37,14 @@ export default class Example extends React.Component {
     return (
     <View style={{flex: 1}}>
       <TouchableOpacity onPress={() => this.setState({open: true})}>
-        <Text style={styles.titleText}>답안 제출하기</Text>
+        <Text style={styles.titleText}>답안지</Text>
       </TouchableOpacity>
       <Modal
         modalStyle={{
           borderRadius: 10,
           margin: 20,
           padding: 10,
-          backgroundColor: '#36485f'
+          backgroundColor: '#36485f',
         }}
         offset={this.state.offset}
         open={this.state.open}

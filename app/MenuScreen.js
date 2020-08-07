@@ -1,6 +1,6 @@
 
  import 'react-native-gesture-handler';
- import React, {Component} from 'react';
+ import React from 'react';
  import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 
 import {
@@ -8,9 +8,7 @@ import {
   ScrollView,
   View,
   Text,
-  TextInput,
   Dimensions,
-  TouchableOpacity,
 } from 'react-native';
 
 

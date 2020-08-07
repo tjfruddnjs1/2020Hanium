@@ -1,11 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
- */
-
  import 'react-native-gesture-handler';
  import React, {Component} from 'react';
  import { NavigationContainer } from '@react-navigation/native';
@@ -17,28 +9,9 @@
  import MenuScreen from '../app/MenuScreen.js';
  import ProblemScreen from '../app/ProblemScreen.js';
  import NumberScreen from '../app/NumberScreen.js';
+ import ExplanationScreen from '../app/ExplanationScreen.js';
 
 const RootStack = createStackNavigator();
-
-import {
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  TextInput,
-  Dimensions,
-  TouchableOpacity,
-} from 'react-native';
-
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-
-
 
 const StackScreen = () => {
   return (
@@ -51,6 +24,7 @@ const StackScreen = () => {
         options={{ headerShown: false }}/>
         <RootStack.Screen name="Problem" component={ProblemScreen} options={{ headerShown: false }}/>
         <RootStack.Screen name="Number" component={NumberScreen} options={{ headerShown: false }}/>
+        <RootStack.Screen name="Explain" component={ExplanationScreen} options={{ headerShown: false }}/>
       </RootStack.Navigator>
     </NavigationContainer>
   );
